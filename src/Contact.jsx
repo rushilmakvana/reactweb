@@ -20,10 +20,10 @@ const Contact = () => {
               <i class="fas fa-envelope"></i>&nbsp;
               <a
                 className="l"
-                href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKjsmQFCKbdCLJdzjzlQmNPLwqcFHGClfsnkBjLFHdHblwDpkGlBPQJpczFKDgxvMmMWcxG"
+                href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKkkJlTpDjfhwnfFzBsvJWDPhpjvLTcgggpvpjTRPZnzZPwCZQDjKrZXLtRWGLSXkNrfksq"
                 target="_blank"
               >
-                vasantmakvana1988@gmail.com
+                vashantmakvana1988@gmail.com
               </a>
             </div>
           </h4>
