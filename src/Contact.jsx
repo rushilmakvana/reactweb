@@ -45,7 +45,11 @@ const Contact = () => {
           <h4 className="ch4">
             <div className="ic">
               <i class="fab fa-whatsapp"></i>&nbsp;
-              <a href="https://wa.me/9879130044" target="_blank" className="l">
+              <a
+                href="https://wa.me/+919879130044"
+                target="_blank"
+                className="l"
+              >
                 +91 98791 30044
               </a>
             </div>
@@ -53,7 +57,11 @@ const Contact = () => {
           <h4 className="ch4">
             <div className="ic">
               <i class="fab fa-whatsapp"></i>&nbsp;
-              <a href="https://wa.me/8849623752" target="_blank" className="l">
+              <a
+                href="https://wa.me/+918849623752"
+                target="_blank"
+                className="l"
+              >
                 +91 88496 23752
               </a>
             </div>
