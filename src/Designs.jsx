@@ -14,7 +14,8 @@ const Designs = () => {
             src="https://tirupati-api.herokuapp.com/static/img/blouse.jpg"
             alt="blouse"
             onClick={() => {
-              window.location.href = "http://localhost:3000/blouses";
+              window.location.href =
+                "https://rushilmakvana.github.io/reactweb/blouses";
             }}
           ></img>
           <NavLink className="link" to="/blouses">
@@ -28,7 +29,8 @@ const Designs = () => {
             src="https://tirupati-api.herokuapp.com/static/img/dress.jpg"
             alt="dress"
             onClick={() => {
-              window.location.href = "http://localhost:3000/dresses";
+              window.location.href =
+                "https://rushilmakvana.github.io/reactweb/dresses";
             }}
           ></img>
           <NavLink className="link" to="/dresses">
@@ -42,7 +44,8 @@ const Designs = () => {
             src="https://tirupati-api.herokuapp.com/static/img/kurti.jpg"
             alt="kurti"
             onClick={() => {
-              window.location.href = "http://localhost:3000/kurtis";
+              window.location.href =
+                "https://rushilmakvana.github.io/reactweb/kurtis";
             }}
           ></img>
           <NavLink className="link" to="/kurtis">
@@ -56,7 +59,8 @@ const Designs = () => {
             src="https://tirupati-api.herokuapp.com/static/img/gown.jpg"
             alt="gown"
             onClick={() => {
-              window.location.href = "http://localhost:3000/gowns";
+              window.location.href =
+                "https://rushilmakvana.github.io/reactweb/gowns";
             }}
           ></img>
           <NavLink className="link" to="/gowns">
