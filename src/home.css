@@ -1,0 +1,93 @@
+#home {
+  /* border: 2px solid; */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  /* background-color: #333; */
+  /* align-items: center; */
+  color: rgb(216, 210, 210);
+}
+.bg {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.65) url("4.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  /* height: 100vh; */
+  /* transition: 2s;
+  animation: animate 10s alternate-reverse infinite; */
+}
+.sm {
+  /* text-align: center; */
+  width: 65%;
+  margin: 13rem auto auto auto;
+  /* border: 1px solid white; */
+}
+.sm .hh1 {
+  font-size: 3rem;
+  margin: 20px 0;
+  padding: 10px 0;
+}
+.para {
+  width: 500px;
+}
+@media (max-width: 1100px) {
+  .sm {
+    width: 77%;
+  }
+  .bg {
+    width: 1100px;
+  }
+}
+@media (max-width: 730px) {
+  .sm .hh1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .para {
+    width: 100%;
+    text-align: center;
+  }
+  .inc {
+    text-align: center;
+  }
+}
+@media (max-width: 495px) {
+  .sm {
+    /* width: 100%; */
+    margin-top: 10rem;
+  }
+}
+@media (max-width: 430px) {
+  /* .sm .hh1 {
+    font-size: 30px;
+  } */
+  .para h3 {
+    font-size: 19px;
+  }
+}
+@media (max-width: 340px) {
+  .sm .hh1 {
+    font-size: 25px;
+  }
+  .para h3 {
+    font-size: 14px;
+  }
+}
+/* @keyframes animate {
+  0% {
+    background: rgba(0, 0, 0, 0.6) url("1.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  50% {
+    background: rgba(0, 0, 0, 0.6) url("2.jpg");
+  }
+  100% {
+    background: rgba(0, 0, 0, 0.6) url("4.jpg");
+  }
+} */
