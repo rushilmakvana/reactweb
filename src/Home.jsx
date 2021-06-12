@@ -32,7 +32,7 @@ const Home = () => {
             <div className="para" data-aos="fade-in">
               <h3>
                 We make variety of design patterns, Just choose a Design of your
-                choice, That's it , you have done.
+                choice.
               </h3>
             </div>
             <br />

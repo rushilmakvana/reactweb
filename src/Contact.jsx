@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import "./contact.css";
 import "aos/dist/aos.css";
 import Aos from "aos";
-// import MailIcon from "@material-ui/icons/Mail";
 const Contact = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -107,44 +106,6 @@ const Contact = () => {
             </a>
           </h4>
         </div>
-        {/* <h1 data-aos="fade-in"> Any Queries ? </h1>
-        <h2 data-aos="fade-in">email us on </h2>
-        <h4 data-aos="fade-in">
-          <a href=""> vasantmakvana1988@gmail.com</a>
-        </h4>
-        <h4 data-aos="fade-in">
-          <a href=""> tirupatitailors@gmail.com</a>
-        </h4>
-        <br />
-        <h3 data-aos="fade-in">OR</h3>
-        <br />
-        <h2 data-aos="fade-in">whatsapp us on </h2>
-        <h4 data-aos="fade-in">
-          <a href=""> +91 98791 30044</a>
-        </h4>
-        <br />
-        <h3 data-aos="fade-in">AND</h3>
-        <br />
-        <h2 data-aos="fade-in">
-          Also follow us on instagram to stay updated with new patterns..
-        </h2>
-        <br />
-        <h3 data-aos="fade-in">
-          <a
-            href="https://www.instagram.com/tirupati_tailors_surat/"
-            target="_blank"
-          >
-            Click Here to visit our instagram handle
-          </a>
-        </h3>
-        <br />
-        <br />
-        <h3 data-aos="fade-in">
-          <a href="">
-            meet us at Shop-No. 4, Tirupati Ladies Tailors, swastik Society,
-            Near Radha Krishna Temple, L.H Road, Surat
-          </a>
-        </h3> */}
       </div>
       <div className="footer">
         for website Development,&nbsp;<i class="fas fa-envelope"></i>&nbsp;

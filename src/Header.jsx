@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./header.css";
 const Header = () => {
   const toggle = () => {
@@ -7,6 +7,16 @@ const Header = () => {
   const hide = () => {
     document.querySelector(".menu").classList.remove("active");
   };
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY >= 150) {
+        document.querySelector(".navbar").style.backgroundColor =
+          "rgb(34, 34, 34)";
+      } else {
+        document.querySelector(".navbar").style.backgroundColor = "";
+      }
+    });
+  }, []);
   return (
     <>
       <div className="navbar">
