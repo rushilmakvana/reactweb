@@ -20,6 +20,7 @@ const Home = () => {
     setTimeout(updatedata, 1000);
     Aos.init({ duration: 1600 });
   }, []);
+  // const gotu=()
 
   return (
     <>
@@ -37,10 +38,26 @@ const Home = () => {
             </div>
             <br />
             <div className="inc" data-aos="fade-in">
-              <h1 className="count" data-aos="fade-in"></h1>
-              <h3> + Designs</h3>
+              <h2 className="count" data-aos="fade-in"></h2>
+              <h4> + Designs</h4>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="up-btn">
+        <div
+          className="arrow"
+          onClick={() => {
+            // window.addEventListener("scroll", () => {
+            //   console.log("called");
+            //   if (window.scrollY > 0) {
+            //     window.scrollY = 0;
+            //   }
+            // });
+            window.location.href = "#";
+          }}
+        >
+          <i class="fas fa-arrow-up"></i>
         </div>
       </div>
     </>
